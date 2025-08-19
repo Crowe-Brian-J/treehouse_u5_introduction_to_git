@@ -45,5 +45,18 @@
 
 *** Pulling Changes
 
-- git pull <*optional* origin>
+- git pull <*optional* default: origin>
+
+*** Adding Remotes
+
+- git remote add <name of directory> <path to remote repository *local or url*>
+-- no output if successful
+
+- remote repository must:
+-- stage changes
+-- commit changes
+
+- local repository
+-- git pull <name of directory> <branch>
+--- git branch *gets current branch*
 
