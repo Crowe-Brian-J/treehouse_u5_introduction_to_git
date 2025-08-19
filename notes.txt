@@ -31,4 +31,10 @@
 
 - Same as discarding modifications -- Why is this separate?
 
-*** 
+*** Reverting to Previous Commits
+
+- git log returns list starting with newest commits, followed by their commit checksum (SHA - secure hash algorithm)
+-- use q key to get output
+- git revert <partial SHA>... (allows you to not have to type the whole thing)
+-- git revert c02bf
+- git revert HEAD (most recent commit)
