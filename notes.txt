@@ -1,0 +1,11 @@
+Removing files from git
+
+- rm tin.html doesn't remove tin.html from repository
+- use git rm to do so
+-- git rm will also do the work of just rm
+
+Moving files in git
+
+- works like mv command
+- git mv silver.txt silver.html
+-- this works to rename files within repository without having to redo everything
