@@ -60,3 +60,18 @@
 -- git pull <name of directory> <branch>
 --- git branch *gets current branch*
 
+*** Pushing Commits to GitHub
+
+- Outside of GitHub, BitBucket & GitLab
+
+- create repository in command line
+  - or -
+- add github repository as remote
+-- git remote add <*origin* (default directory)> <url of github repository (copied from github)>
+
+- git push <*-u* (set upstream option - first time or when changing)> <*origin* (default directory)> <*master* (default branch)>
+
+-- Unless user has setup github secure token, will be prompted for username and password
+--- Setup First! (Has been on my computer since 2023)
+
+
