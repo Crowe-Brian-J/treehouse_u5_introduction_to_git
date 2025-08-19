@@ -1,11 +1,34 @@
-Removing files from git
+*** Removing files from git
 
 - rm tin.html doesn't remove tin.html from repository
 - use git rm to do so
 -- git rm will also do the work of just rm
 
-Moving files in git
+*** Moving files in git
 
 - works like mv command
 - git mv silver.txt silver.html
 -- this works to rename files within repository without having to redo everything
+
+*** Unstaging Changes
+
+- *Before* committing
+-- use "git reset HEAD <file>..." to unstage
+--- git reset HEAD medals.html
+-- will show when running git status
+
+*** Discarding File Modifications
+
+- *Before* committing
+- don't use for single line changes (too small)
+- git status
+- (use "git checkout -- <file>..." to discard changes in working directory)
+-- git checkout -- medals.html (no output returned)
+- rewinds file to last committed state
+-- will show when running git status
+
+*** Undoing File Deletions
+
+- Same as discarding modifications -- Why is this separate?
+
+*** 
