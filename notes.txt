@@ -38,3 +38,12 @@
 - git revert <partial SHA>... (allows you to not have to type the whole thing)
 -- git revert c02bf
 - git revert HEAD (most recent commit)
+
+*** Cloning a Repository
+
+- git clone <source directory> <local directory>
+
+*** Pulling Changes
+
+- git pull <*optional* origin>
+
